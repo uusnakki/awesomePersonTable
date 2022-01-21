@@ -1,11 +1,14 @@
 # Ennakkotehtävä
 ## Taulukkotehtävä Netum Oy
 
-Keskityn aluksi
-- Formien tuottamiseen
-- Datan siirto komponenttien välillä
-- TypeScriptiin tutustuminen
+Tehty:
+- Formien tuottamiseen OK
+- Datan siirto komponenttien välillä OK
+- TypeScriptiin tutustuminen OK
+
+Tekemässä:
+- CSS:ään tutustuminen
 
 Tämän jälkeen
-- CSSn tutustuminen
+- Datan editointi ja poistaminen
 
