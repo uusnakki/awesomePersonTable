@@ -1,0 +1,20 @@
+[
+    {
+        "id": "asdasd-123123asd",
+        "firstName": "Mikko",
+        "lastName": "Malli",
+        "age": 23
+    },
+    {
+        "id": "asgfjkdls-sadg1243-123",
+        "firstName": "Esko",
+        "lastName": "Aho",
+        "age": 44
+    },
+    {
+        "id": "ahlkds-12435-sdsd",
+        "firstName": "Tessa",
+        "lastName": "Testi",
+        "age": 24
+    }
+]
