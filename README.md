@@ -12,5 +12,5 @@ Tekemässä:
 - CSS:ään tutustuminen
 
 Tämän jälkeen
-- Datan editointi ja poistaminen
+- Datan editointi
 
