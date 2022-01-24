@@ -1,6 +1,6 @@
 import './App.css';
 //import PersonTable from './components/PersonTable'
-import PersonCreator from './components/PersonCreator'
+import PersonTable from './components/PersonTable'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           Get to know my professional me!
         </a>
         <br />
-        <PersonCreator />
+        <PersonTable />
       </header>
     </div>
   );
