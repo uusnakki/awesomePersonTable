@@ -14,6 +14,12 @@ const PersonTable = () => {
         age: 0
     });
 
+    //Handles the value change in the form
+    /*
+    * Checks the value from the "name" attribute.
+    * Value can be string or a number (name or age).
+    * We add the values to the persondata state.
+    */
     const handleAddFormChange = (event: any) => {
         event.preventDefault();
 
@@ -28,11 +34,10 @@ const PersonTable = () => {
 
     //Handles the "Add a person" button
     /*
-    * Creates a person with spesific ID
-    * Logs the person into the console
-    * Adds the person into the table of other persons
+    * Creates a person with spesific ID.
+    * Logs the person into the console.
+    * Adds the person into the table of other persons.
     */
-
     const handleAddFormSubmit = (event: any) => {
         event.preventDefault();
 
@@ -47,6 +52,13 @@ const PersonTable = () => {
         setPersons(newPersons);
     };
 
+    //Handles the "Delete" button
+    /*
+    * Checks that the "p" type is a person.
+    * Finds the index from table that is the same as the id of the person.
+    * Deletes that person from our table.
+    * Sets person table to the state where the person is removed.
+    */
     const handleDeleteClick = (p: Person) => {
         const newPersons = [...persons];
 
@@ -95,11 +107,13 @@ const PersonTable = () => {
                 <br />
             </form>
             <table className="TableHeader">
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Age</th>
-                </tr>
+                <tbody>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Age</th>
+                    </tr>
+                </tbody>
             </table>
             {persons.map((person) => (
                 <table key={person.id} className="PersonTable">

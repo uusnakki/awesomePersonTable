@@ -16,7 +16,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Get to know my professional me!
+                Check out my LinkedIn
             </a>
         </div>
     );
