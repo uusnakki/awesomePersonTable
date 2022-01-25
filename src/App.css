@@ -1,14 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-.App-header {
   background-color: #7cbed8;
   min-height: 100vh;
   display: flex;
@@ -17,6 +8,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.headerComponent {
+  position: absolute;
+  top: 7%;
+  left: 14%;
 }
 
 .App-link {
@@ -33,8 +30,10 @@
   letter-spacing: .15rem;
   transition: all .3s;
   overflow: hidden;
-  align-items: right;
+  position: relative;
+  float: right;
 }
+
 .buttonAdd:hover{
   background-color: #193f55;
   color: rgb(255, 255, 255);
@@ -61,32 +60,45 @@
 
 .FormTable {
   margin: 1px;
-  width: 140%;
-  height: 120%;
+  width: 15%;
+  height: 50%;
   text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  
 }
 
 .InputStyle {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 12px 0;
   box-sizing: border-box;
-  border: 2px solid rgb(149, 229, 231);
+  border: 2px solid rgb(5, 5, 5);
   border-radius: 9px;
   font-size: large;
-
 }
 
 .PersonTable {
-  margin: 1px;
-  width: 120%;
+  margin: 2px;
+  padding: 2%;
+  width: 100%;
   height: 90%;
-  text-align: right;
+  text-align: left;
+  border-style: solid;
+  position: relative;
+  left: 100%;
+  top: 50%;
 }
 
 .TableHeader {
+  background-color: rgb(37, 68, 124);
+  border-radius:1rem;
   padding: 10px;
-  width: 120%;
-  height: 90%;
+  margin: 12px;
+  width: 25%;
+  text-align: left;
+  position: absolute;
+  right: 20%;
+  top: 25%;
 }
-
