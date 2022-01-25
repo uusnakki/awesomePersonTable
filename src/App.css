@@ -9,7 +9,7 @@
 
 
 .App-header {
-  background-color: #75ca6d;
+  background-color: #7cbed8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,5 +21,72 @@
 
 .App-link {
   color: #000000;
+}
+
+.buttonAdd {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: rgb(99, 136, 192);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  overflow: hidden;
+  align-items: right;
+}
+.buttonAdd:hover{
+  background-color: #193f55;
+  color: rgb(255, 255, 255);
+}
+
+.buttonDelete {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: rgb(179, 66, 66);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  align-items: right;
+}
+.buttonDelete:hover{
+  background-color: #a52b2b;
+  color: rgb(255, 255, 255);
+}
+
+.FormTable {
+  margin: 1px;
+  width: 140%;
+  height: 120%;
+  text-align: left;
+}
+
+.InputStyle {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(149, 229, 231);
+  border-radius: 9px;
+  font-size: large;
+
+}
+
+.PersonTable {
+  margin: 1px;
+  width: 120%;
+  height: 90%;
+  text-align: right;
+}
+
+.TableHeader {
+  padding: 10px;
+  width: 120%;
+  height: 90%;
 }
 
